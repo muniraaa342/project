@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.header {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.sidebar {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    height: 100%;
+    padding-top: 20px;
+}
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+.sidebar a:hover {
+    background-color: #575757;
+}
+.main {
+    margin-left: 220px;
+    padding: 20px;
+}
+h1 {
+    color: #333;
+}
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+.event-card {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 0 0 45%; /* Adjust the width as needed */
+    box-sizing: border-box;
+}
+.event-card h2 {
+    margin: 0 0 10px;
+    color: #007BFF;
+}
+.event-card p {
+    margin: 5px 0;
+}
+.event-card a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.event-card a:hover {
+    text-decoration: underline;
+}
+.logout {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+}
